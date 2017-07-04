@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body ng-app="app">
+  <div id="scroll-animate" class="night" ng-controller="mainCtrl">
+    <div id="scroll-animate-main">
+      <div class="wrapper-parallax">
+        <header class="main-image">
+          <h1>{{name}}</h1>
+        </header>
+
+        <section class="content paint">
+          <div class="buttons">
+            <button class="btn" id="night" ng-click="night()">NIGHT</button>
+            <button class="btn" id="iris" ng-click="iris()">IRIS</button>
+            <button class="btn" id="sunflower" ng-click="sunflower()">SUNFLOWER</button>
+          </div>
+          <!-- <div class="gradient-wrap">
+              <img src="./images/1.jpg" alt="" />
+          </div> -->
+          <h1>
+            <q>{{quote}}</q><span class="from">Vincent Van Gogh</span>
+          </h1>
+        </section>
+
+        <footer class="paint">
+          <h1><img class="pulse" src="https://png.icons8.com/hearts/office/100" title="Hearts" width="100" height="100"></h1>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" charset="utf-8"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js" charset="utf-8"></script>
+  <!-- <script src="https://unpkg.com/grade-js/docs/dist/grade.js" charset="utf-8"></script> -->
+  <script src="./scripts/main.js" charset="utf-8"></script>
+</body>
+</html>

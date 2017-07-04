@@ -1,0 +1,15 @@
+.sunflower {
+  color: white;
+  transition: ease .3s;
+
+  .main-image {
+    background: url('../images/3.jpg') no-repeat center center fixed !important;
+    transition: ease .3s;
+    background-color: #f1e486 !important;
+  }
+
+  .paint {
+    background: #bfa419 !important;
+    transition: ease .3s;
+  }
+}

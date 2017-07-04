@@ -1,0 +1,23 @@
+.night {
+  color: white !important;
+  transition: ease .3s;
+
+  .buttons {
+    .btn:hover {
+      background: white;
+      color: #1a2754;
+    }
+  }
+
+  .main-image {
+    background: url('../images/1.jpg') no-repeat center center fixed !important;
+    transition: ease .3s;
+    background-color: #496cbe !important;
+    // background-color: #2b241d !important;
+  }
+
+  .paint {
+    background: #1a2754 !important;
+    transition: ease .3s;
+  }
+}

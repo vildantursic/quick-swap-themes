@@ -1,0 +1,22 @@
+.iris {
+  color: white;
+  transition: ease .3s;
+
+  .buttons {
+    .btn:hover {
+      background: white;
+      color: #5e9993;
+    }
+  }
+
+  .main-image {
+    background: url('../images/2.jpg') no-repeat center center fixed !important;
+    transition: ease .3s;
+    background-color: #5a9990 !important;
+  }
+
+  .paint {
+    background: #5e9993 !important;
+    transition: ease .3s;
+  }
+}
