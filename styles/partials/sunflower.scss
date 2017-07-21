@@ -1,6 +1,15 @@
+$sunflower: #bfa419;
+
 .sunflower {
   color: white;
   transition: ease .3s;
+
+  .buttons {
+    .btn:hover {
+      background: white;
+      color: $sunflower;
+    }
+  }
 
   .main-image {
     background: url('../images/3.jpg') no-repeat center center fixed !important;
@@ -9,7 +18,7 @@
   }
 
   .paint {
-    background: #bfa419 !important;
+    background: $sunflower !important;
     transition: ease .3s;
   }
 }

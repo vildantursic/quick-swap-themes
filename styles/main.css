@@ -29,6 +29,9 @@
 .sunflower {
   color: white;
   transition: ease .3s; }
+  .sunflower .buttons .btn:hover {
+    background: white;
+    color: #bfa419; }
   .sunflower .main-image {
     background: url("../images/3.jpg") no-repeat center center fixed !important;
     transition: ease .3s;

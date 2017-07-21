@@ -1,3 +1,5 @@
+$iris: #5e9993;
+
 .iris {
   color: white;
   transition: ease .3s;
@@ -5,7 +7,7 @@
   .buttons {
     .btn:hover {
       background: white;
-      color: #5e9993;
+      color: $iris;
     }
   }
 
@@ -16,7 +18,7 @@
   }
 
   .paint {
-    background: #5e9993 !important;
+    background: $iris !important;
     transition: ease .3s;
   }
 }
